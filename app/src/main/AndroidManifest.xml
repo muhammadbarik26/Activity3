@@ -10,8 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activity3">
         <activity
+            android:name=".ActivityMenu"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ActivityHasil"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/label2"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
