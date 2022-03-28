@@ -10,11 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activity3">
         <activity
+            android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity" />
+        <activity
+            android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ActivityMenu"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ActivityHasil"
-            android:exported="false"
             android:label="@string/label2"
             android:parentActivityName=".MainActivity" />
         <activity
